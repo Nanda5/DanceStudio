@@ -1,0 +1,24 @@
+spring.datasource.url = jdbc:mysql://localhost:3306/dancestudio?useSSL=false
+spring.datasource.name=com.mysql.jdbc.Driver
+
+# Username and password
+spring.datasource.username = root
+spring.datasource.password = root
+spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto = update
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+
+spring.servlet.multipart.max-request-size=350MB
+spring.servlet.multipart.max-file-size=300MB
+server.servlet.context-path=/studentPortal/api
+logging.level.org.hibernate.SQL=DEBUG
+logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+
+#spring.mail.host=smtp.gmail.com
+#spring.mail.properties.mail.smtp.socketFactory.port=465
+#spring.mail.username=snipetech.user@gmail.com
+#spring.mail.password=snipe@123
+#spring.mail.properties.mail.smtp.auth.=true
+ #spring.mail.properties.mail.smtp.socketFactory.class=javax.net.ssl.SSLSocketFactory
+#spring.mail.properties.mail.smtp.socketFactory.fallback=false
